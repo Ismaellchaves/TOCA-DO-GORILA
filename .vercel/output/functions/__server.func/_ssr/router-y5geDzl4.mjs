@@ -4,7 +4,7 @@ import { o as ShieldCheck, y as ArrowLeft } from "../_libs/lucide-react.mjs";
 import { t as fight_team_logo_default } from "./fight-team-logo-CQm4Pn5j.mjs";
 import { t as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-DldalBpR.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-y5geDzl4.js
 var import_jsx_runtime = require_jsx_runtime();
 var styles_default = "/assets/styles-BWW7lUyg.css";
 function NotFoundComponent() {
@@ -167,7 +167,7 @@ function RootComponent() {
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {})
 	});
 }
-var $$splitComponentImporter$2 = () => import("./routes-C241X6vj.mjs");
+var $$splitComponentImporter$2 = () => import("./routes-8wuFS9vq.mjs");
 var Route$2 = createFileRoute("/")({
 	ssr: false,
 	component: lazyRouteComponent($$splitComponentImporter$2, "component"),
@@ -209,7 +209,7 @@ var Route$2 = createFileRoute("/")({
 		}]
 	})
 });
-var $$splitComponentImporter$1 = () => import("./agendar-BylU6QoP.mjs");
+var $$splitComponentImporter$1 = () => import("./agendar-DKhHDsJN.mjs");
 var Route$1 = createFileRoute("/agendar")({
 	ssr: false,
 	head: () => ({ meta: [

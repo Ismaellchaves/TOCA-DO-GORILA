@@ -5,7 +5,7 @@ import { a as Shield, b as ArrowDown, h as ChevronLeft, i as Swords, l as Menu, 
 import { t as fight_team_logo_default } from "./fight-team-logo-CQm4Pn5j.mjs";
 import { a as exercito_4__default, c as fotos2_default, i as exercito_3__default, l as fotos_default, n as exercito_1__default, o as exercito_5__default, r as exercito_2__default, s as fotos1_default, t as equipe_treino_default } from "./fotos2-DSk7jPtD.mjs";
 import { n as gsapWithCSS, t as ScrollTrigger } from "../_libs/gsap.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-C241X6vj.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-8wuFS9vq.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function Embers() {
@@ -879,7 +879,7 @@ function FightTeamPage() {
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "container footer-bottom",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "© 2026 Gideon Dourado TOCA DO GORILA. Todos os direitos reservados." }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Versão 1.0.0" })]
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "© 2026 Gideon Dourado TOCA DO GORILA. Todos os direitos reservados." }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Versão 1.1.0" })]
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 				className: "container footer-credit",

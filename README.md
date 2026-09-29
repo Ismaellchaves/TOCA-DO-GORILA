@@ -1,10 +1,15 @@
+*DESKTOP*
 
-<img width="1547" height="772" alt="image" src="https://github.com/user-attachments/assets/03e44199-1068-4c99-a826-bd20b0cfaa87" />
-<img width="1535" height="762" alt="image" src="https://github.com/user-attachments/assets/20a7dbe4-94d0-43c8-bea5-890452dec657" />
-<img width="1546" height="777" alt="image" src="https://github.com/user-attachments/assets/826716e4-00c0-414d-b271-9e55f61dd942" />
-<img width="1542" height="742" alt="image" src="https://github.com/user-attachments/assets/57497530-3ce6-4f69-91e8-7687314052f8" />
-<img width="1543" height="761" alt="image" src="https://github.com/user-attachments/assets/cf02d1bc-5931-46e3-9799-9e0af43b0bcb" />
-<img width="1292" height="750" alt="image" src="https://github.com/user-attachments/assets/ba450d5e-7511-4c90-a25c-3ad8e60eabe6" />
-<img width="1545" height="765" alt="image" src="https://github.com/user-attachments/assets/03f7a617-a47e-4a3b-b5a2-8d42863701fd" />
-<img width="1508" height="767" alt="image" src="https://github.com/user-attachments/assets/9c01d637-b639-4fa0-9440-218a8d829664" />
-<img width="472" height="650" alt="image" src="https://github.com/user-attachments/assets/2f5cc6fb-3af4-4792-a9f8-02b3c18c628e" />
+<img width="1720" height="2570" alt="04-galeria" src="https://github.com/user-attachments/assets/17193068-ffb9-4a77-9dac-61b0958561bd" /><img width="1548" height="815" alt="01" src="https://github.com/user-attachments/assets/0642ea89-d7d5-4785-b540-d74fccbb8802" />
+<img width="1548" height="815" alt="02" src="https://github.com/user-attachments/assets/b4cb4762-95e1-4cce-8bf6-08f6f1a5cc3b" />
+<img width="1548" height="815" alt="03-modalidade" src="https://github.com/user-attachments/assets/e37d53e0-8b77-49da-8edb-84a4d014f6c5" />
+<img width="1548" height="815" alt="03" src="https://github.com/user-attachments/assets/c7d053e7-fc10-4d15-aa78-f42257f79719" />
+<img width="1548" height="815" alt="04" src="https://github.com/user-attachments/assets/64a7aa94-c7e5-441a-be18-5e28e8727b4f" />
+<img width="1720" height="2570" alt="04-galeria" src="https://github.com/user-attachments/assets/afff6ede-6c70-4c51-80ff-49c696f781aa" />
+<img width="1548" height="815" alt="05" src="https://github.com/user-attachments/assets/9dba646f-a1e8-4a4d-a0a0-8d781829b24d" />
+<img width="1548" height="815" alt="06" src="https://github.com/user-attachments/assets/19758cbc-9fa3-43c8-b46e-36d28238d9d6" />
+<img width="1548" height="815" alt="botão agendar aula" src="https://github.com/user-attachments/assets/19c07d2f-8349-4423-81e2-19419b68f1a7" />
+
+*MOBILE*
+
+<img width="752" height="13902" alt="iPhone-14-PRO-toca-do-gorila vercel app" src="https://github.com/user-attachments/assets/83e47f60-99b8-4274-837a-63652dfe857c" />

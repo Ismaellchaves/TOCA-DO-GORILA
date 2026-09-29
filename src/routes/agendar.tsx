@@ -90,9 +90,9 @@ function BookingPage() {
               <span><MessageCircleMore /> Modalidade</span>
               <select value={modality} onChange={(event) => setModality(event.target.value)}>
                 <option value="Muay Thai">Muay Thai</option>
-            {/*     <option value="Kickboxing">Kickboxing</option>
+                 <option value="Kickboxing">Kickboxing</option>
                 <option value="Defesa Pessoal">Defesa Pessoal</option>
-                <option value="Muay Thai Kids">Muay Thai Kids</option> */}
+                <option value="Muay Thai Kids">Muay Thai Kids</option> 
               </select>
             </label>
 

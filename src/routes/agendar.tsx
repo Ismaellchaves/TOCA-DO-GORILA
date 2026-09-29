@@ -3,7 +3,7 @@ import { Link, createFileRoute, useLocation } from "@tanstack/react-router";
 import { ArrowLeft, CalendarDays, Check, Clock3, MessageCircleMore, UserRound } from "lucide-react";
 
 const WHATSAPP_NUMBER = "558892665285";
-const DEFAULT_MODALITY = "Muay Thai" , "Kickboxing" , "Jiu Jitsu" , "Karatê" , "Muay Thai Kids"  ;
+const DEFAULT_MODALITY = "Muay Thai";
 
 function buildWhatsAppUrl({ name, date, time, modality }: { name: string; date: string; time: string; modality: string }) {
   const safeName = name.trim() || "Aluno";

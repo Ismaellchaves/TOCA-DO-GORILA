@@ -20,3 +20,7 @@ PALETA DE CORES
 #ea580c
 #000000
 #ffffff
+
+
+<img width="1600" height="1600" alt="mockup-01-notebook-celular" src="https://github.com/user-attachments/assets/6ef77f95-d2f8-47c6-b073-7efbd0119c94" />
+[Toca_do_Gorila_Apresentacao.pdf](https://github.com/user-attachments/files/32814756/Toca_do_Gorila_Apresentacao.pdf)

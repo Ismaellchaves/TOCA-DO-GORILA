@@ -86,15 +86,20 @@ function BookingPage() {
               </label>
             </div>
 
-            <label>
-              <span><MessageCircleMore /> Modalidade</span>
-              <select value={modality} onChange={(event) => setModality(event.target.value)}>
-                <option value="Muay Thai">Muay Thai</option>
-                   {/*     <option value="Kickboxing">Kickboxing</option>
-                <option value="Defesa Pessoal">Defesa Pessoal</option>
-                <option value="Muay Thai Kids">Muay Thai Kids</option> */}
-              </select>
-            </label>
+<label>
+  <span><MessageCircleMore /> Modalidade</span>
+
+  <select
+    value={modality}
+    onChange={(event) => setModality(event.target.value)}
+  >
+    <option value="Muay Thai">Muay Thai</option>
+    <option value="Kickboxing">Kickboxing</option>
+    <option value="Jiu Jitsu">Jiu Jitsu</option>
+    <option value="Karatê">Karatê</option>
+    <option value="Muay Thai Kids">Muay Thai Kids</option>
+  </select>
+</label>
 
             <button type="submit" className="button button-primary booking-submit">
               <Check /> Enviar para WhatsApp

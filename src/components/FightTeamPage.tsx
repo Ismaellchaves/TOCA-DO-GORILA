@@ -287,7 +287,7 @@ export function FightTeamPage() {
         <div className="container footer-main"><Brand /><nav>{nav.map(([label,id]) => <a key={id} href={`#${id}`}>{label}</a>)}</nav><div className="socials"><a href="https://www.instagram.com/tocadogorila/" aria-label="Instagram"><Instagram /></a></div></div>
         <div className="container footer-bottom">
           <span>© 2026 Gideon Dourado TOCA DO GORILA. Todos os direitos reservados.</span>
-          <span>Versão 1.0.0</span>
+          <span>Versão 1.1.0</span>
         </div>
         <div className="container footer-credit">
           <span>Desenvolvido por <a href="https://ismaell.vercel.app" target="_blank" rel="noreferrer noopener">ISMAELL CHAVES</a></span>

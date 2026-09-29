@@ -13,3 +13,10 @@
 *MOBILE*
 
 <img width="752" height="13902" alt="iPhone-14-PRO-toca-do-gorila vercel app" src="https://github.com/user-attachments/assets/83e47f60-99b8-4274-837a-63652dfe857c" />
+
+
+PALETA DE CORES
+
+#ea580c
+#000000
+#ffffff

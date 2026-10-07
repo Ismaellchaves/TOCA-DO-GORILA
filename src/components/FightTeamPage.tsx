@@ -192,7 +192,7 @@ export function FightTeamPage() {
             <div className="schedule-list">
               <div><strong>07:00 às 17:00</strong><span>Segunda a sexta</span></div>
               <div><strong>18:00 às 19:00</strong><span>Segunda a sexta</span></div>
-              {/* <div><strong>19:00 às 20:00</strong><span>Segunda a sexta</span></div> */}
+              <div><strong>19:00 às 20:00</strong><span>Segunda a sexta</span></div>
             </div>
           </div>
         </div>

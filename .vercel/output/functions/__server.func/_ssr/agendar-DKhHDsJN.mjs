@@ -1,7 +1,7 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { a as require_react, i as require_jsx_runtime } from "../_libs/@react-three/fiber+[...].mjs";
 import { g as Link, l as useLocation } from "../_libs/@tanstack/react-router+[...].mjs";
-import { _ as CalendarDays, c as MessageCircleMore, f as Clock3, g as Check, n as UserRound, y as ArrowLeft } from "../_libs/lucide-react.mjs";
+import { _ as Check, b as ArrowLeft, l as MessageCircleMore, n as UserRound, p as Clock3, v as CalendarDays } from "../_libs/lucide-react.mjs";
 //#region node_modules/.nitro/vite/services/ssr/assets/agendar-DKhHDsJN.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();

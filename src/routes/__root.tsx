@@ -73,7 +73,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "referrer", content: "strict-origin-when-cross-origin" },
-      { name: "application-version", content: "1.0.0" },
+      { name: "application-version", content: "1.1.0" },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Toca do Gorila" },
       { name: "twitter:card", content: "summary_large_image" },

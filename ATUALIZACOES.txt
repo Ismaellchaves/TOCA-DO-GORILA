@@ -1,0 +1,10 @@
+ATUALIZACOES DO SITE - VERSAO 1.1.0
+
+- Ocultadas as barras de rolagem em toda a pagina, mantendo a rolagem vertical e horizontal funcional por toque, roda do mouse, trackpad e teclado.
+- Corrigida a abertura dos detalhes de produtos sem tamanhos, incluindo a bandagem.
+- Blusa da academia: tamanhos G e GG exibem e aplicam acrescimo de R$ 7,00 no valor e no pedido pelo WhatsApp.
+- Kit BKS: adicionadas imagens, selecao de gramatura das luvas e orientacoes sobre tamanhos e caneleiras.
+- Loja: adicionados produtos BKS e Maximum com galerias de imagens e links de compra da Shopee.
+- Removido do catalogo o card avulso "Luvas de Muay Thai".
+- Melhorada a responsividade da loja, dos cards, das galerias e do modal em celulares, tablets e telas maiores.
+- Ajustadas as imagens dos produtos para aparecerem inteiras, sem cortes.

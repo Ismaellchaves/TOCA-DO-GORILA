@@ -120,11 +120,13 @@ export function FightTeamPage() {
         <a href="#inicio" aria-label="Início"><Brand compact /></a>
         <nav aria-label="Navegação principal">
           {nav.map(([label, id]) => <a className={activeSection === id ? "is-active" : ""} key={id} href={`#${id}`}>{label}</a>)}
+          <Link to="/loja">LOJA</Link>
         </nav>
         <a className="button button-outline header-cta" href="/agendar?modalidade=Muay%20Thai&auto=1" rel="noreferrer">AGENDAR AULA <ArrowUpRight /></a>
         <button className="menu-toggle" aria-label={menuOpen ? "Fechar menu" : "Abrir menu"} onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
         <div className={`mobile-menu ${menuOpen ? "is-open" : ""}`}>
           {nav.map(([label, id]) => <a className={activeSection === id ? "is-active" : ""} key={id} href={`#${id}`} onClick={() => setMenuOpen(false)}>{label}</a>)}
+          <Link to="/loja" onClick={() => setMenuOpen(false)}>LOJA</Link>
           <a href="/agendar?modalidade=Muay%20Thai&auto=1">AGENDAR AULA</a>
         </div>
       </header>
@@ -188,9 +190,9 @@ export function FightTeamPage() {
               <p>Os treinos de Muay Thai são realizados de segunda a sexta:</p>
             </div>
             <div className="schedule-list">
-              <div><strong>17:00 às 18:00</strong><span>Segunda a sexta</span></div>
+              <div><strong>07:00 às 17:00</strong><span>Segunda a sexta</span></div>
               <div><strong>18:00 às 19:00</strong><span>Segunda a sexta</span></div>
-              <div><strong>19:00 às 20:00</strong><span>Segunda a sexta</span></div>
+              {/* <div><strong>19:00 às 20:00</strong><span>Segunda a sexta</span></div> */}
             </div>
           </div>
         </div>
@@ -284,7 +286,7 @@ export function FightTeamPage() {
       </section>
 
       <footer>
-        <div className="container footer-main"><Brand /><nav>{nav.map(([label,id]) => <a key={id} href={`#${id}`}>{label}</a>)}</nav><div className="socials"><a href="https://www.instagram.com/tocadogorila/" aria-label="Instagram"><Instagram /></a></div></div>
+        <div className="container footer-main"><Brand /><nav>{nav.map(([label,id]) => <a key={id} href={`#${id}`}>{label}</a>)}<Link to="/loja">LOJA</Link></nav><div className="socials"><a href="https://www.instagram.com/tocadogorila/" aria-label="Instagram"><Instagram /></a></div></div>
         <div className="container footer-bottom">
           <span>© 2026 Gideon Dourado TOCA DO GORILA. Todos os direitos reservados.</span>
           <span>Versão 1.1.0</span>

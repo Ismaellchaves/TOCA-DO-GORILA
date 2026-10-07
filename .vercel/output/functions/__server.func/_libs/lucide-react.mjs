@@ -398,6 +398,26 @@ var Shield = createLucideIcon("shield", [["path", {
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
+var ShoppingBag = createLucideIcon("shopping-bag", [
+	["path", {
+		d: "M16 10a4 4 0 0 1-8 0",
+		key: "1ltviw"
+	}],
+	["path", {
+		d: "M3.103 6.034h17.794",
+		key: "awc11p"
+	}],
+	["path", {
+		d: "M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z",
+		key: "o988cm"
+	}]
+]);
+/**
+* @license lucide-react v0.575.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
 var Swords = createLucideIcon("swords", [
 	["polyline", {
 		points: "14.5 17.5 3 6 3 3 6 3 17.5 14.5",
@@ -505,4 +525,4 @@ var X = createLucideIcon("x", [["path", {
 	key: "d8bk6v"
 }]]);
 //#endregion
-export { CalendarDays as _, Shield as a, ArrowDown as b, MessageCircleMore as c, Image as d, Clock3 as f, Check as g, ChevronLeft as h, Swords as i, Menu as l, ChevronRight as m, UserRound as n, ShieldCheck as o, CircleCheck as p, Target as r, Play as s, X as t, Instagram as u, ArrowUpRight as v, ArrowLeft as y };
+export { Check as _, ShoppingBag as a, ArrowLeft as b, Play as c, Instagram as d, Image as f, ChevronLeft as g, ChevronRight as h, Swords as i, MessageCircleMore as l, CircleCheck as m, UserRound as n, Shield as o, Clock3 as p, Target as r, ShieldCheck as s, X as t, Menu as u, CalendarDays as v, ArrowDown as x, ArrowUpRight as y };

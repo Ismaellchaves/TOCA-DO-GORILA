@@ -120,7 +120,7 @@ function withSecurityHeaders(response, request) {
 	return secured;
 }
 async function getServerEntry() {
-	if (!serverEntryPromise) serverEntryPromise = import("./server-CZHZ0z9d.mjs").then((m) => m.default ?? m);
+	if (!serverEntryPromise) serverEntryPromise = import("./server-CiwIS-Op.mjs").then((m) => m.default ?? m);
 	return serverEntryPromise;
 }
 async function normalizeCatastrophicSsrResponse(response) {

@@ -4,9 +4,9 @@ import { b as ArrowLeft, s as ShieldCheck } from "../_libs/lucide-react.mjs";
 import { t as fight_team_logo_default } from "./fight-team-logo-CQm4Pn5j.mjs";
 import { t as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-C0YKGrSA.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-Cko-d-Gf.js
 var import_jsx_runtime = require_jsx_runtime();
-var styles_default = "/assets/styles-B7WTzx6Z.css";
+var styles_default = "/assets/styles-NIc6UKqb.css";
 function NotFoundComponent() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", {
 		className: "not-found-page",
@@ -167,7 +167,7 @@ function RootComponent() {
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {})
 	});
 }
-var $$splitComponentImporter$3 = () => import("./routes-Crb_O8am.mjs");
+var $$splitComponentImporter$3 = () => import("./routes-Q2CVwUuB.mjs");
 var Route$3 = createFileRoute("/")({
 	ssr: false,
 	component: lazyRouteComponent($$splitComponentImporter$3, "component"),
@@ -233,7 +233,7 @@ var Route$2 = createFileRoute("/agendar")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("./galeria-BGuDxWCy.mjs");
+var $$splitComponentImporter$1 = () => import("./galeria-DmxNMZv9.mjs");
 var Route$1 = createFileRoute("/galeria")({
 	ssr: false,
 	head: () => ({ meta: [
@@ -261,7 +261,7 @@ var Route$1 = createFileRoute("/galeria")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./loja-S6J-FRpW.mjs");
+var $$splitComponentImporter = () => import("./loja-DdUtp4Or.mjs");
 var Route = createFileRoute("/loja")({
 	ssr: false,
 	head: () => ({ meta: [

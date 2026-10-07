@@ -3,9 +3,7 @@ import { a as require_react, i as require_jsx_runtime } from "../_libs/@react-th
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { a as ShoppingBag, b as ArrowLeft, l as MessageCircleMore, t as X, y as ArrowUpRight } from "../_libs/lucide-react.mjs";
 import { t as fight_team_logo_default } from "./fight-team-logo-CQm4Pn5j.mjs";
-import { t as exercito_1__default } from "./exercito(1)-D5fBcrNU.mjs";
-import { t as treino_ringue_default } from "./treino-ringue-4pZ0s5ug.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/loja-S6J-FRpW.js
+//#region node_modules/.nitro/vite/services/ssr/assets/loja-DdUtp4Or.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var kitbks_default = "/assets/kitbks-DLRneBj1.jpg";

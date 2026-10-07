@@ -6,5 +6,7 @@ ATUALIZACOES DO SITE - VERSAO 1.1.0
 - Kit BKS: adicionadas imagens, selecao de gramatura das luvas e orientacoes sobre tamanhos e caneleiras.
 - Loja: adicionados produtos BKS e Maximum com galerias de imagens e links de compra da Shopee.
 - Removido do catalogo o card avulso "Luvas de Muay Thai".
+- Adicionado na pagina inicial o botao "Ver toda a loja", junto das chamadas para treino e planos.
+- Aplicadas bordas arredondadas aos cards, filtros, galerias e controles da loja para combinar com o visual do site.
 - Melhorada a responsividade da loja, dos cards, das galerias e do modal em celulares, tablets e telas maiores.
 - Ajustadas as imagens dos produtos para aparecerem inteiras, sem cortes.

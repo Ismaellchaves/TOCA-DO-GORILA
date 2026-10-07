@@ -231,6 +231,9 @@ export function FightTeamPage() {
             <button type="button" className="button button-outline train-price-toggle" onClick={() => setPlansOpen((open) => !open)}>
               {plansOpen ? "FECHAR PLANOS" : "VER PLANOS"} <ArrowUpRight />
             </button>
+            <Link className="button button-outline store-home-link" to="/loja">
+              VER TODA A LOJA <ArrowUpRight />
+            </Link>
           </div>
         </div>
 

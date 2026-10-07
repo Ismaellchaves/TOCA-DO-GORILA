@@ -1,1 +1,0 @@
-import{r as e}from"./index-DJlPEwmn.js";var t=e(`arrow-up-right`,[[`path`,{d:`M7 7h10v10`,key:`1tivn9`}],[`path`,{d:`M7 17 17 7`,key:`1vkiza`}]]),n=`/assets/treino-ringue-BVmYtg9D.jpg`;export{t as n,n as t};

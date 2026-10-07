@@ -3,11 +3,9 @@ import { a as require_react, i as require_jsx_runtime, n as useFrame, t as Canva
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { d as Instagram, g as ChevronLeft, h as ChevronRight, i as Swords, m as CircleCheck, o as Shield, r as Target, t as X, u as Menu, x as ArrowDown, y as ArrowUpRight } from "../_libs/lucide-react.mjs";
 import { t as fight_team_logo_default } from "./fight-team-logo-CQm4Pn5j.mjs";
-import { t as exercito_1__default } from "./exercito(1)-D5fBcrNU.mjs";
-import { a as exercito_5__default, c as fotos_default, i as exercito_4__default, n as exercito_2__default, o as fotos1_default, r as exercito_3__default, s as fotos2_default, t as equipe_treino_default } from "./fotos2-_yAxcCLs.mjs";
-import { t as treino_ringue_default } from "./treino-ringue-4pZ0s5ug.mjs";
+import { a as exercito_4__default, c as fotos2_default, i as exercito_3__default, l as fotos_default, n as exercito_1__default, o as exercito_5__default, r as exercito_2__default, s as fotos1_default, t as equipe_treino_default } from "./fotos2-DSk7jPtD.mjs";
 import { n as gsapWithCSS, t as ScrollTrigger } from "../_libs/gsap.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-Crb_O8am.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-Q2CVwUuB.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function Embers() {
@@ -67,6 +65,7 @@ function FightAtmosphere() {
 	});
 }
 var professor_muay_thai_default = "/assets/professor-muay-thai-BCDTOxgR.jpg";
+var treino_ringue_default = "/assets/treino-ringue-BVmYtg9D.jpg";
 var karate_default = "/assets/karate-BIkuRCzn.jpg";
 var jiujitsu_default = "/assets/jiujitsu-DBDTH5H7.jpg";
 var muay_thay_default = "/assets/muay-thay-BnKOTjZ8.jpg";
@@ -732,21 +731,29 @@ function FightTeamPage() {
 						] }),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "train-actions",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-								className: "button button-primary",
-								href: "/agendar?modalidade=Muay%20Thai&auto=1",
-								rel: "noreferrer",
-								children: ["AGENDAR AULA EXPERIMENTAL ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUpRight, {})]
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-								type: "button",
-								className: "button button-outline train-price-toggle",
-								onClick: () => setPlansOpen((open) => !open),
-								children: [
-									plansOpen ? "FECHAR PLANOS" : "VER PLANOS",
-									" ",
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUpRight, {})
-								]
-							})]
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+									className: "button button-primary",
+									href: "/agendar?modalidade=Muay%20Thai&auto=1",
+									rel: "noreferrer",
+									children: ["AGENDAR AULA EXPERIMENTAL ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUpRight, {})]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+									type: "button",
+									className: "button button-outline train-price-toggle",
+									onClick: () => setPlansOpen((open) => !open),
+									children: [
+										plansOpen ? "FECHAR PLANOS" : "VER PLANOS",
+										" ",
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUpRight, {})
+									]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
+									className: "button button-outline store-home-link",
+									to: "/loja",
+									children: ["VER TODA A LOJA ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUpRight, {})]
+								})
+							]
 						})
 					]
 				}),

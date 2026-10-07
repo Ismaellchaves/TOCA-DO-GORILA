@@ -3,9 +3,8 @@ import { a as require_react, i as require_jsx_runtime } from "../_libs/@react-th
 import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { b as ArrowLeft, c as Play, f as Image, t as X } from "../_libs/lucide-react.mjs";
 import { t as fight_team_logo_default } from "./fight-team-logo-CQm4Pn5j.mjs";
-import { t as exercito_1__default } from "./exercito(1)-D5fBcrNU.mjs";
-import { a as exercito_5__default, c as fotos_default, i as exercito_4__default, n as exercito_2__default, o as fotos1_default, r as exercito_3__default, s as fotos2_default, t as equipe_treino_default } from "./fotos2-_yAxcCLs.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/galeria-BGuDxWCy.js
+import { a as exercito_4__default, c as fotos2_default, i as exercito_3__default, l as fotos_default, n as exercito_1__default, o as exercito_5__default, r as exercito_2__default, s as fotos1_default, t as equipe_treino_default } from "./fotos2-DSk7jPtD.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/galeria-DmxNMZv9.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var treino_default = "/assets/treino-CUAzFo6x.mp4";

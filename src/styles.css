@@ -282,6 +282,7 @@
   .train-content p { margin:20px 0 26px; color:var(--muted-foreground); line-height:1.65; }
   .train-actions { display:flex; flex-wrap:wrap; gap:12px; }
   .train-price-toggle { background: rgba(12,12,12,0.56); }
+  .store-home-link { background:color-mix(in oklab,var(--background) 62%,transparent); }
   .pricing-modal { position:absolute; right:5vw; top:145px; z-index:8; width:min(430px, calc(100% - 32px)); opacity:0; pointer-events:none; transform:translateX(18px); transition:opacity .35s ease, transform .35s ease; }
   .pricing-modal.is-open { opacity:1; pointer-events:auto; transform:translateX(0); }
   .pricing-panel { padding:18px 18px 14px; border:1px solid var(--border); border-radius:calc(var(--radius-xl) + 8px); background:color-mix(in oklab, var(--surface) 78%, transparent); backdrop-filter:blur(18px); box-shadow: 0 22px 55px color-mix(in oklab, var(--primary) 14%, transparent); }
@@ -377,11 +378,11 @@
   .store-count { display:flex; align-items:center; gap:9px; color:var(--muted-foreground); font-size:11px; }
   .store-count svg { width:16px; color:var(--primary); }
   .store-filters { display:flex; flex-wrap:wrap; gap:7px; }
-  .store-filters button { min-height:34px; padding:0 13px; border:1px solid transparent; background:transparent; color:var(--muted-foreground); font:inherit; font-size:10px; cursor:pointer; transition:.2s ease; }
+  .store-filters button { min-height:34px; padding:0 13px; border:1px solid transparent; border-radius:999px; background:transparent; color:var(--muted-foreground); font:inherit; font-size:10px; cursor:pointer; transition:.2s ease; }
   .store-filters button:hover,.store-filters button.is-active { border-color:var(--primary); color:var(--foreground); }
   .store-filters button.is-active { background:color-mix(in oklab,var(--primary) 14%,transparent); }
   .store-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:17px; padding-top:24px; }
-  .store-product { display:flex; min-width:0; flex-direction:column; overflow:hidden; border:1px solid var(--border); background:color-mix(in oklab,var(--surface) 86%,transparent); animation:storeReveal .5s both; }
+  .store-product { display:flex; min-width:0; flex-direction:column; overflow:hidden; border:1px solid var(--border); border-radius:var(--radius-xl); background:color-mix(in oklab,var(--surface) 86%,transparent); animation:storeReveal .5s both; }
   .store-product-image { position:relative; display:block; width:100%; aspect-ratio:4 / 3; overflow:hidden; padding:12px; border:0; background:var(--surface-raised); cursor:pointer; }
   .store-product-image:after { content:""; position:absolute; inset:50% 0 0; background:linear-gradient(0deg,color-mix(in oklab,var(--background) 78%,transparent),transparent); }
   .store-product-image img { width:100%; height:100%; object-fit:contain; filter:saturate(.9); transition:transform .55s ease,filter .4s ease; }
@@ -397,14 +398,14 @@
   .store-details-link svg { width:13px; }
   .store-note { margin-top:20px; color:var(--muted-foreground); font-size:10px; text-align:right; }
   .store-dialog { position:fixed; z-index:120; inset:0; display:grid; place-items:center; overflow-y:auto; padding:24px; background:color-mix(in oklab,var(--background) 82%,transparent); backdrop-filter:blur(12px); animation:dialogIn .2s ease both; }
-  .store-dialog-panel { position:relative; display:grid; width:min(920px,100%); max-height:calc(100svh - 48px); grid-template-columns:1.05fr .95fr; overflow:auto; border:1px solid var(--border); background:var(--surface); box-shadow:0 24px 80px color-mix(in oklab,var(--background) 70%,transparent); }
-  .store-dialog-close { position:absolute; z-index:3; top:13px; right:13px; display:grid; width:38px; height:38px; place-items:center; border:1px solid var(--border); background:color-mix(in oklab,var(--background) 82%,transparent); color:var(--foreground); cursor:pointer; }
+  .store-dialog-panel { position:relative; display:grid; width:min(920px,100%); max-height:calc(100svh - 48px); grid-template-columns:1.05fr .95fr; overflow:auto; border:1px solid var(--border); border-radius:var(--radius-xl); background:var(--surface); box-shadow:0 24px 80px color-mix(in oklab,var(--background) 70%,transparent); }
+  .store-dialog-close { position:absolute; z-index:3; top:13px; right:13px; display:grid; width:38px; height:38px; place-items:center; border:1px solid var(--border); border-radius:50%; background:color-mix(in oklab,var(--background) 82%,transparent); color:var(--foreground); cursor:pointer; }
   .store-dialog-close svg { width:17px; }
   .store-dialog-gallery { position:relative; min-height:460px; background:var(--background); }
   .store-dialog-gallery>img { display:block; width:100%; height:100%; max-height:540px; padding:16px 16px 74px; object-fit:contain; }
   .store-dialog-gallery>span { bottom:76px; left:19px; }
   .store-thumbnails { position:absolute; right:15px; bottom:14px; left:15px; display:flex; gap:8px; overflow-x:auto; }
-  .store-thumbnails button { flex:0 0 58px; width:58px; height:48px; overflow:hidden; padding:0; border:1px solid var(--border); background:var(--surface); cursor:pointer; }
+  .store-thumbnails button { flex:0 0 58px; width:58px; height:48px; overflow:hidden; padding:0; border:1px solid var(--border); border-radius:var(--radius-md); background:var(--surface); cursor:pointer; }
   .store-thumbnails button.is-active { border-color:var(--primary); }
   .store-thumbnails img { width:100%; height:100%; object-fit:cover; }
   .store-dialog-copy { align-self:center; padding:40px 34px; }
@@ -416,12 +417,12 @@
   .store-availability p { margin-top:5px; color:var(--muted-foreground); font-size:10px; line-height:1.5; }
   .store-order-field { display:flex; flex-direction:column; gap:7px; margin-top:14px; }
   .store-order-field small { color:var(--muted-foreground); font-size:10px; line-height:1.5; }
-  .store-order-field input,.store-order-field select { box-sizing:border-box; width:100%; min-height:42px; padding:0 12px; border:1px solid var(--border); border-radius:0; background:var(--background); color:var(--foreground); font:inherit; font-size:11px; outline:none; }
+  .store-order-field input,.store-order-field select { box-sizing:border-box; width:100%; min-height:42px; padding:0 12px; border:1px solid var(--border); border-radius:var(--radius-md); background:var(--background); color:var(--foreground); font:inherit; font-size:11px; outline:none; }
   .store-order-field input:focus,.store-order-field select:focus { border-color:var(--primary); }
   .store-quantity { max-width:120px; }
   .store-quantity input { min-height:38px; }
   .store-purchase-note { margin-top:14px; color:var(--muted-foreground); font-size:10px; line-height:1.5; }
-  .store-buy-button { width:100%; margin-top:18px; border-radius:2px; font-size:9px; }
+  .store-buy-button { width:100%; margin-top:18px; border-radius:999px; font-size:9px; }
   .store-buy-button svg { width:15px; }
 
   .booking-page { min-height:100svh; display:flex; align-items:center; justify-content:center; padding:120px 0 70px; background:radial-gradient(circle at top, color-mix(in oklab, var(--primary) 15%, transparent), transparent 32%), var(--background); }

@@ -63,6 +63,10 @@ Principais recursos:
   <tr>
     <td colspan="2"><img src="https://github.com/user-attachments/assets/afff6ede-6c70-4c51-80ff-49c696f781aa" alt="Galeria" /></td>
   </tr>
+    <tr>
+    <td colspan="2"><img width="1548" height="2338" alt="Opera Instantâneo_2026-10-07_102159_toca-do-gorila vercel app" src="https://github.com/user-attachments/assets/489fdb4e-64a0-4600-9808-1a600ef32b8d" />
+LOJA  </td>
+  </tr>
 </table>
 
 ### 📱 Mobile
